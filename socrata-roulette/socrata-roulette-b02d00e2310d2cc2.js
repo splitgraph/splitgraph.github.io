@@ -957,7 +957,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('socrata-roulette-7e8e4efa22b46b62_bg.wasm', import.meta.url);
+        input = new URL('socrata-roulette-b02d00e2310d2cc2_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
